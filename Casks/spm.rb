@@ -3,7 +3,7 @@ cask "spm" do
   name "spm"
   desc "Smart Package Manager — auto-detects and proxies to the right Node.js package manager"
   homepage "https://github.com/decampsrenan/spm"
-  version "0.5.0"
+  version "0.6.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "spm" do
   on_macos do
     on_intel do
       url "https://github.com/decampsrenan/spm/releases/download/v#{version}/spm_#{version}_darwin_amd64.tar.gz"
-      sha256 "4041c819088a68ab9be4ae9054635b94ef2d572a49f88079552a4f6fb02863d5"
+      sha256 "a22a8e48adeaa0db23edfad5a0501f739406153c6b83fb0fb55f46989f24aa97"
     end
     on_arm do
       url "https://github.com/decampsrenan/spm/releases/download/v#{version}/spm_#{version}_darwin_arm64.tar.gz"
-      sha256 "66e797ecbdb31f7873c79b5b8d0bb07ef9fe027c510d54168c1de66746f09128"
+      sha256 "0ac51418e18ca894ea0c02753abb7814d3ff939eebe32f39417b3e6a04d62230"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/decampsrenan/spm/releases/download/v#{version}/spm_#{version}_linux_amd64.tar.gz"
-      sha256 "c8b7886f417b3c3813ff63b84372abad870965cea6af8280d864d5c0f6d18f0a"
+      sha256 "b6126104b7cf1eca32108420424c19c153603c68a13be5d6afa34a5fdb2e6816"
     end
     on_arm do
       url "https://github.com/decampsrenan/spm/releases/download/v#{version}/spm_#{version}_linux_arm64.tar.gz"
-      sha256 "2222cafc5dfc1f605fa3b48bc6cebdc59fcdc971fdfe84e702cb5291d4f9a6b6"
+      sha256 "38f4234e8f67e7090d02e7d58a6e4e977e26aec8f174225c3cf624669f69eaaa"
     end
   end
 
