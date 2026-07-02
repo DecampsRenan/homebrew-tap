@@ -1,8 +1,8 @@
 class WorktreeCleaner < Formula
   desc "Interactively find and delete stale or orphaned git worktrees"
   homepage "https://github.com/DecampsRenan/worktree-cleaner"
-  url "https://github.com/DecampsRenan/worktree-cleaner/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "ef6d9bb2cdbcda9438977aefa46ce330d4bf5a871e2cb1d51f0bdf5e1f6d57ad"
+  url "https://github.com/DecampsRenan/worktree-cleaner/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "dd1c29e0744597dfc3a4626682cb21666824e6a8f2812ca535173f1b7b747410"
   license "MIT"
   head "https://github.com/DecampsRenan/worktree-cleaner.git", branch: "main"
 
